@@ -23,5 +23,5 @@ robocopy "!sourceDir!\glew" "!destinationDir!\glew" /e
 :: 复制 GLFW 文件夹
 robocopy "!sourceDir!\glfw" "!destinationDir!\glfw" /e
 
-echo 完成复制到目标路径: "!destinationDir!"
+echo finish copy: "!destinationDir!"
 pause
